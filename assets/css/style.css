@@ -1,0 +1,39 @@
+/* Universal Reset of elements and border-box to keep things neat*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* color: ; */
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Adjust spacing from the top of the page and move anchors to the right */
+header {
+    /* background-color: ; */
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: blue;
+}
+
+/* remove underline from hyperlink text */
+header a {
+    text-decoration: none;
+}
+
+/* Remove the ul dots and place items in the same row */
+header ul li {
+    padding: 10px 15px;
+    list-style: none;
+    display: inline-block;
+}
+
+header ul li a {
+    font-size: 1.5vw;
+}
