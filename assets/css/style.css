@@ -76,11 +76,12 @@ p, h3 {
 
 .about p {
     color: var(--page-text);
-    width: 400px;
-    text-align: center;
+    font-weight: bold;
+    width: 800px;
+    text-align: match-parent;
     margin: auto;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 80px;
 }
 
 /* Center the items inside of the Projects section */
@@ -126,6 +127,8 @@ section div img:hover {
 .contact li {
     text-align: center;
     font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .contact a:hover {
