@@ -3,12 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    --main: #FFFFFF;
+    --banner-text: #FFFFFF;
     --banner: #003349;
-    --text: #013d57;
+    --page-text: #013d57;
     --highlight: #8ACEEB;
-    background-color: var(--main);
-    color: var(--text);
+    color: var(--banner);
 }
 
 body {
@@ -25,7 +24,7 @@ header {
 /* Background color for the banner */
 header, header * {
     background-color: var(--banner);
-    color: var(--main);
+    color: var(--banner-text);
 }
 
 /* remove underline from hyperlink text from the entire page */
@@ -48,22 +47,70 @@ header ul li a:hover {
     color: var(--highlight);
 }
 
-
 main {
     padding: 20px;
     text-align: center;
 }
 
-main p {
+div {
     padding: 10px;
-    margin: 0;
+    background-color: var(--banner);
+    margin: 25px;
+    border-radius: 5px;
+}
+
+p, h3 {
+    color: var(--banner-text);
 }
 
 section h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 section h3 {
-    margin-bottom: 15px;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    margin: 0px 0 5px 25px;
+}
+
+.image-text {
+    position: absolute;
+    display: inline-block;
+    margin: 25px 0 0 25px;
+}
+
+.hero-image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.self-portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.about p {
+    color: var(--page-text);
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact h2 {
+    margin-bottom: 10px;
+}
+
+.contact li {
+    text-align: center;
+    font: bold;
+}
+
+.contact a:hover {
+    color: var(--highlight);
 }
