@@ -49,6 +49,11 @@ main {
     text-align: center;
 }
 
+main p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 /* Center the hero image horizontally */
 .hero-image {
     margin-left: auto;
@@ -57,60 +62,76 @@ main {
 
 /* Create the sections and make the text readable on the background added */
 div {
-    padding: 20px;
     background-color: var(--banner);
-    margin: 50px;
-    border-radius: 500px;
-}
-
-p, h3 {
-    color: var(--banner-text);
+    padding: 20px;
 }
 
 /* Center the items inside of About Me */
 .self-portrait {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 15px;
+    margin-left: 50px;
+    float: left;
 }
 
 .about p {
+    display: block;
     color: var(--page-text);
     font-weight: bold;
-    width: 800px;
-    text-align: match-parent;
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: justify;
+    background-color: var(--banner);
+    color: var(--banner-text);
 }
 
 /* Center the items inside of the Projects section */
 section {
     text-align: center;
-    margin: auto;
 }
 
 section h2 {
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background-color: var(--banner);
+    color: var(--banner-text);
 }
 
-section h3 {
-    display: inline-block;
-    text-align: center;
-    position: absolute;
-    margin: 0px 0 5px 25px;
+.projects h2:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 20px;
+    border-bottom: 2px solid var(--highlight);
 }
 
-section div img {
-    margin-left: -500px;
+.projects h3 {
+    padding-bottom: 20px;
+    color: var(--banner-text);
+}
+
+.projects p {
+    color: var(--banner-text);
 }
 
 .image-text {
-    position: absolute;
-    display: inline-block;
-    margin: 25px 0 0 50px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.image-text:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    padding-top: 20px;
+    border-bottom: 2px solid var(--highlight);
 }
 
 /* Make images change color when the mouse is placed over them */
@@ -120,6 +141,10 @@ section div img:hover {
 }
 
 /* Adjust spacing and item contents inside of Contact info */
+.contact {
+    clear: both;
+}
+
 .contact h2 {
     margin-bottom: 10px;
 }
@@ -129,8 +154,12 @@ section div img:hover {
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 50px;
+    list-style: none;
 }
 
 .contact a:hover {
     color: var(--highlight);
 }
+
+/* Viewport settings for other devices with smaller resolutions */
+
