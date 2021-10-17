@@ -56,12 +56,14 @@ main p {
 
 /* Center the hero image horizontally */
 .hero-image {
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
 }
 
 /* Create the sections and make the text readable on the background added */
-div {
+div:not(.hero-image) {
     background-color: var(--banner);
     padding: 20px;
 }
@@ -83,6 +85,7 @@ div {
 }
 
 .about p {
+    text-indent: 25px;
     display: block;
     color: var(--page-text);
     font-weight: bold;
@@ -188,4 +191,70 @@ section div img:hover {
 }
 
 /* Viewport settings for other devices with smaller resolutions */
+@media screen and (max-width: 1024px) {
+    .hero-image img {
+        vertical-align: middle;
+        width: 100%;
+    }
+}
 
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        position: relative;
+    }
+
+    .hero-image img {
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    .about p {
+        text-indent: 15px;
+        font-size: .9em;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        justify-content: center;
+    }
+    header h1 {
+        font-size: 1.5em;
+        position: absolute;
+        top: 15px;
+        left: 25px;
+    }
+
+    header ul li {
+        font-size: 1.5em;
+    }
+
+    .about p {
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    header h1 {
+        font-size: 1em;
+    }
+
+    header ul {
+        padding-left: 50px;
+    }
+    
+    header ul li {
+        font-size: .9em;
+    }
+
+    .about img {
+        padding: 25px;
+        margin-left: 45px;
+    }
+    .about p {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}
