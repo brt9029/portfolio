@@ -4,6 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"
     charset="UTF-8" />
     <title>My Portfolio</title>
+    <link
+    rel='stylesheet'
+    href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css'
+    integrity='sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3'
+    crossorigin='anonymous'
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
@@ -13,12 +19,24 @@
         </h1>
         <ul>
             <li>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
                 <a href="#about">About</a>
             </li>
             <li>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
                 <a href="#projects">Projects</a>
             </li>
             <li>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
                 <a href="#contact">Contact</a>
             </li>
         </ul>
@@ -34,66 +52,74 @@
         
     </main>
     <div class="hero-image">
-        <img src="assets/images/hero-placeholder.png" alt="Placeholder image">
+        <img src="assets/images/BinaryCode.jpg" class="faded" alt="Placeholder image">
     </div>
     <section id="about" class="about">
-        <h2>
-            About me
-        </h2>
-        <img src="./assets/images/self-portrait.png" alt="Self portrait" class="self-portrait">
-        <p>
-            My name is Bryant. I was born in New York City and spent my teen / young adulthood in Grand Rapids, MI.
-            For as long as I can remember gaming has always interested me, mechanics specifically. This caused me to push myself to learn as much as I could about every type of game I could get my hands on.
-            Of course this lead to gaming becoming a passion of mine, along with crossword puzzles this is why I enjoy learning exactly why and how things work/don't work the way they do in a programmatic way. <br /><br />
-            Today, I am working to become a Developer 
-        </p>
+        <div class="card" style="width: 50%;">
+            <div class="row no-gutters">
+                <div class="col-sm-5">
+                    <img class="card-img" src="./assets/images/self-portrait.png" alt="picture of me">
+                </div>
+                <div class="col-sm-7">
+                    <div class="card-body">
+                        <h2 class="card-title">About me</h2>
+                        <p class="card-text">
+                            My name is Bryant. I was born in New York City and spent my teen / young adulthood in Grand Rapids, MI.
+                            For as long as I can remember gaming has always interested me, mechanics specifically. This caused me to push myself to learn as much as I could about every type of game I could get my hands on.
+                            Of course this lead to gaming becoming a passion of mine, along with crossword puzzles this is why I enjoy learning exactly why and how things work/don't work the way they do in a programmatic way. <br /><br />
+                            Today, I am working to become a Developer 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="projects" class="projects">
         <h2>
             Projects
         </h2>
-        <div class="run-buddy">
-            <h3>
-                Run Buddy
-            </h3>
-            <a href="https://brt9029.github.io/run-buddy/"><img src="./assets/images/run-buddy.jpg" alt="Page preview of Run Buddy site" width="350" height="250"></a>
-            <p class="image-text">
-                Exercise website for users to enroll with a personal trainer (CSS & HTML)
-            </p>
-        </div>
-    
-        <div class="robot-gladiators">
-            <h3>
-                Robot Gladiators
-            </h3>
-            <a href="https://brt9029.github.io/robot-gladiators/"><img src="./assets/images/robot-gladiators.jpg" alt="Rock em sock em robots" width="300" height="200"></a>
-            <p class="image-text">
-                Text based battle simulator (JS & HTML)
-            </p>
-        </div>
 
-        <div class="block-breaker">
-            <h3>
-                Block Breaker
-            </h3>
-            <a href="https://brt9029.itch.io/block-breaker"><img src="./assets/images/block-breaker.PNG" alt="In-game screenshot of Block Breaker" width="300" height="200"></a>
-            <p class="image-text">
-                Breakout game made using Unity & C#
-            </p>
-        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./assets/images/run-buddy.jpg" alt="Page preview of Run Buddy site" width="350" height="250">
+            <div class="card-body">
+              <h3 class="card-title">Run Buddy</h3>
+              <p class="card-text">Exercise website for users to enroll with a personal trainer (CSS & HTML)</p>
+              <a href="https://brt9029.github.io/run-buddy/" class="btn">Visit Repository</a>
+            </div>
+          </div>
 
-        <div class="tech-port">
-            <h3>
-                Tech Port
-            </h3>
-            <a href="https://github.com/tgtiburon/Web_Security"><img src="./assets/images/tech-port.png" alt="Web preview of Tech Port" width="300" height="200"></a>
-            <p class="image-text">
-                My first Team Project! We used JQuery, Bulma CSS, NY Times API, and Virus Total API. </br>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./assets/images/robot-gladiators.jpg" alt="Rock em sock em robots" width="300" height="200">
+            <div class="card-body">
+              <h3 class="card-title">Robot Gladiators</h3>
+              <p class="card-text">Text based battle simulator (JS & HTML)</p>
+              <a href="https://brt9029.github.io/robot-gladiators/" class="btn">Visit Repository</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./assets/images/block-breaker.PNG" alt="In-game screenshot of Block Breaker" width="300" height="200">
+            <div class="card-body">
+              <h3 class="card-title">Block Breaker</h3>
+              <p class="card-text">Breakout game made using Unity & C#</p>
+              <a href="https://brt9029.itch.io/block-breaker" class="btn">Try it out!</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./assets/images/tech-port.png" alt="Web preview of Tech Port" width="300" height="200">
+            <div class="card-body">
+              <h3 class="card-title">Tech Port</h3>
+              <p class="card-text">
+                My first Team Project! We used JQuery, Bulma CSS, NY Times API, and Virus Total API.
                 The site offers a real-time URL scanner as well as some of the latest NY Times 
                 Tech articles to look at while waiting for the scan to finish!
-            </p>
-        </div>
+                </p>
+              <a href="https://github.com/tgtiburon/Web_Security" class="btn">Try it out!</a>
+            </div>
+          </div>
+          
     </section>
 
     <section id="contact" class="contact">
@@ -101,7 +127,7 @@
             Contact Info
         </h2>
         <ul>
-            <li>E-mail inquiries: <a href="mailto:">brt9029@gmail.com</a></li>
+            <li><a href="mailto:">E-mail: brt9029@gmail.com</a></li>
         </ul>
     </section>
 
