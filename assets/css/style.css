@@ -7,6 +7,8 @@
     --dark-green: #010D00;
     --shadow: #0C2605;
     --green: #2E590E;
+    --text: #e2e2e2;
+    --button-text: #a9cdf7;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
@@ -82,7 +84,7 @@ header ul li a:hover {
 
 body {
     background: rgb(25,30,41);
-    background: linear-gradient(145deg, rgba(25,30,41,1) 0%, rgba(0,0,0,1) 35%, rgba(1,195,128,1) 100%);
+    background: linear-gradient(145deg, rgba(25,30,41,1) 0%, rgba(0,0,0,1) 35%, rgba(0,153,100,1) 100%);
 }
 
 main {
@@ -94,12 +96,22 @@ h2 {
     color: var(--light-green);
     text-align: center;
     padding-top: 1.5rem;
+    text-shadow: 2px 2px var(--shadow);
 }
 
 p {
     color: white;
     font-weight: bold;
     text-shadow: 2px 2px var(--shadow);
+}
+
+.btn {
+    color: var(--button-text);
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid #009964;
+    text-shadow: 1px 1px var(--shadow);
+    box-shadow: 1px 1px black;
 }
 
 .hero-image img {
@@ -112,10 +124,13 @@ p {
     display: block;
 }
 
-.about {
+.about, .btn {
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.about btn {
+    margin-right: 0;
 }
 
 .about .card-img {
@@ -124,4 +139,26 @@ p {
 
 .card {
     background: transparent;
+    border: none;
+}
+
+.card-group h3 {
+    text-align: center;
+    color: turquoise;
+    text-shadow: 2px 2px var(--shadow);
+}
+
+.card-group img {
+    height: 10rem;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact li {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    font-weight: bold;
+    text-shadow: 1px 1px var(--shadow);
 }
