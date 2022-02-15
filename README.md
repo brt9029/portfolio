@@ -1,11 +1,11 @@
 # fantastic-waffle
 
-- Here we have a first look at my portfolio site in order to display what I have been working on for future employers to see!
-- Made using HTML & CSS
+## My Portfolio Website
+- Made using HTML, CSS, and Bootstrap
 
 
 - Deployed URL: https://brt9029.github.io/fantastic-waffle/
 
 
 **Web Preview**
-![portfolio](https://user-images.githubusercontent.com/26530136/142901817-e5aa852f-f1a9-411a-bb0e-d106f0c25697.PNG)
+![image](https://user-images.githubusercontent.com/26530136/150707570-23b3c1ef-c70b-48d2-aed5-b4c91b8f1c9b.png)
