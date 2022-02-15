@@ -117,8 +117,8 @@ p {
 .hero-image img {
     padding-top: 15px;
     padding-bottom: 25px;
-    width: 110em;
-    height: 30em;
+    width: 70rem;
+    height: 30rem;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -142,6 +142,10 @@ p {
     border: none;
 }
 
+.card p {
+    text-align: center;
+}
+
 .card-group h3 {
     text-align: center;
     color: turquoise;
@@ -161,4 +165,31 @@ p {
     justify-content: center;
     font-weight: bold;
     text-shadow: 1px 1px var(--shadow);
+}
+
+@media screen and (max-width: 768px) {
+    .hero-image img {
+        width: 35rem;
+        height: 15rem;
+    }
+    .about img {
+        padding-top: 5rem !important;
+        width: 10rem;
+    }
+    .about p {
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .hero-image img {
+        width: 20rem;
+        height: 15rem;
+    }
+    .about img {
+        width: 10rem;
+    }
+    .about p {
+        width: 10rem;
+    }
 }
