@@ -1,12 +1,22 @@
-import './App.css';
-
-import Header from './components/Header';
-import About from './pages/About';
+import React, { useState } from 'react';
+import Nav from './components/Nav';
+import About from './components/About';
+import Projects from './components/Projects';
 
 function App() {
+  const [contactSelected, setContactSelected] = useState(false);
   return (
     <div className="App">
-      <Header />
+      <Nav />
+      <main>
+        {!contactSelected ? (
+          <>
+            <About />
+          </>
+        ) : (
+          <Projects />
+        )}
+      </main>
     </div>
   );
 }
