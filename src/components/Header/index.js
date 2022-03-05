@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Nav = () => {
+const Header = () => {
     const categories = [
         {
             name: "About",
@@ -19,7 +20,7 @@ const Nav = () => {
     return (
         <header>
             <h1>
-                Portfolio
+                <Link to="/">Portfolio</Link>
             </h1>
             <ul>
                 {categories.map((category) => (
@@ -30,7 +31,7 @@ const Nav = () => {
                           <span></span>
                           <span></span>
                           <span></span>
-                          <a href={`/${category.name}`}>{category.name}</a>
+                          <Link to={`/${category.name}`}>{category.name}</Link>
                       </li>
                 ))}
             </ul>
@@ -38,4 +39,4 @@ const Nav = () => {
     )
 };
 
-export default Nav;
+export default Header;

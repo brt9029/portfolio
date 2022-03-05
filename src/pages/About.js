@@ -1,5 +1,5 @@
 import React from 'react';
-import selfie from '../../assets/self-portrait.png';
+import selfie from '../assets/self-portrait.png';
 
 const About = () => {
     return (
