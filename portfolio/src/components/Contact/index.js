@@ -1,9 +1,8 @@
 import React from 'react';
 
-
-const Footer = () => {
+const Contact = () => {
     return (
-        <section id="contact" class="contact">
+        <section id="contact" className="contact">
             <h2>
                 Contact Info
             </h2>
@@ -16,4 +15,4 @@ const Footer = () => {
     )
 }
 
-export default Footer;
+export default Contact;
