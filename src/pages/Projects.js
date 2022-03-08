@@ -2,7 +2,7 @@ import React from 'react';
 
 import runBuddy from '../assets/run-buddy.jpg';
 import robotGladiators from '../assets/robot-gladiators.jpg';
-import blockBreaker from '../assets/block-breaker.jpg';
+import blockBreaker from '../assets/block-breaker.png';
 import techPort from '../assets/tech-port.png';
 import foodieSpot from '../assets/foodie-spot.png';
 import photoPort from '../assets/ohSnap.png';
