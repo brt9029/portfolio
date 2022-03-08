@@ -12,6 +12,11 @@ const Footer = () => {
             description: "Linked in profile",
             url: "https://www.linkedin.com/in/bryant-torres-77524321a/"
         },
+        {
+            name: "Stack Overflow",
+            description: "Stack Overflow Profile",
+            url: "https://stackoverflow.com/users/16704969/brt90299"
+        }
     ]
 
     return (
