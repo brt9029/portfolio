@@ -30,7 +30,7 @@ const Footer = () => {
                           <span></span>
                           <span></span>
                           <span></span>
-                          <a href={category.url} target="_blank">{category.name}</a>
+                          <a href={category.url} target="_blank" rel="noreferrer">{category.name}</a>
                       </li>
                 ))}
             </ul>

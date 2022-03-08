@@ -75,7 +75,7 @@ const Projects = () => {
                             <div className="card-body">
                                 <h3 className="card-title">{project.cardTitle}</h3>
                                 <p className="card-text">{project.cardText}</p>
-                                <a href={project.link} className="btn" target="_blank">{project.buttonText}</a>
+                                <a href={project.link} className="btn" target="_blank" rel="noreferrer">{project.buttonText}</a>
                             </div>
                     </div>
                 )}
