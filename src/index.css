@@ -36,7 +36,7 @@ a {
   position: relative;
   display: inline-block;
   padding: 25px 30px;
-  margin: 40px 0;
+  margin: 0;
   color: #03e9f4;
   text-decoration: none;
   text-transform: uppercase;
@@ -78,10 +78,11 @@ header {
   display: flex;
   justify-content: space-between;
   box-shadow: 0 8px 8px 0 black;
+  background: rgb(25,30,41);
+  background: linear-gradient(145deg, rgba(25,30,41,1) 0%, rgba(0,0,0,1) 60%, rgba(0,153,100,1) 100%);
 }
 
 header, header * {
-  color: var(--light-green);
   text-shadow: 2px 2px var(--shadow);
 }
 
@@ -98,7 +99,6 @@ header ul li a:hover {
 
 body {
   background: rgb(25,30,41);
-  background: linear-gradient(145deg, rgba(25,30,41,1) 0%, rgba(0,0,0,1) 35%, rgba(0,153,100,1) 100%);
 }
 
 main {
@@ -119,8 +119,39 @@ p {
   text-shadow: 2px 2px var(--shadow);
 }
 
+footer {
+  padding: 20px 35px;
+  align-items: center;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  bottom: 0px;
+  justify-content: space-between;
+  box-shadow: 0 8px 8px 0 black;
+  background: rgb(25,30,41);
+  background: linear-gradient(145deg, rgba(25,30,41,1) 0%, rgba(0,0,0,1) 60%, rgba(0,153,100,1) 100%);
+}
+
+footer, footer * {
+  text-shadow: 2px 2px var(--shadow);
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 10px;
+  font-weight: bold;
+  list-style: none;
+}
+
+footer ul li a:hover {
+  color: white;
+}
+
+
 .btn {
   color: var(--button-text);
+  margin-left: auto;
+  margin-right: auto;
   font-weight: bold;
   background-color: transparent;
   border: 2px solid #009964;
@@ -173,12 +204,49 @@ p {
   margin-right: auto;
 }
 
-.contact li {
-  display: flex;
-  list-style-type: none;
-  justify-content: center;
+.contact {
   font-weight: bold;
   text-shadow: 1px 1px var(--shadow);
+  color: var(--light-green);
+  padding: 20px;
+  margin: 3.5%;
+  width: 40%;
+}
+
+.contact .form-input {
+  display: block;
+  padding: 7px 15px;
+  width: 100%;
+}
+
+.contact .btn {
+  margin-top: 2%;
+}
+
+.form-input {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.resume {
+  text-align: center;
+  color: var(--light-green);
+  text-shadow: 1px 1px var(--shadow);
+  margin: 3.5%;
+}
+
+.resume li {
+  list-style-type: none;
+}
+
+.resume h3 {
+  margin-top: 2%;
+  font-size: 32px;
+}
+
+.resume a {
+  margin: 3.5%;
+  width: 40%;
 }
 
 @media screen and (max-width: 768px) {

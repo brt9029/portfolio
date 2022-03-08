@@ -14,14 +14,18 @@ const Header = () => {
         {
             name: "Contact",
             description: "Contact information"
+        },
+        {
+            name: "Resume",
+            description: "Resume"
         }
     ]
 
     return (
         <header>
-            <h1>
-                <Link to="/">Portfolio</Link>
-            </h1>
+            <Link to='/'>
+                <h1 className="m-0">Bryant Torres</h1>
+            </Link>
             <ul>
                 {categories.map((category) => (
                     <li
