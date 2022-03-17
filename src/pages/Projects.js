@@ -2,10 +2,11 @@ import React from 'react';
 
 import runBuddy from '../assets/run-buddy.jpg';
 import robotGladiators from '../assets/robot-gladiators.jpg';
-import blockBreaker from '../assets/block-breaker.png';
+import blockBreaker from '../assets/block-breaker.PNG';
 import techPort from '../assets/tech-port.png';
 import foodieSpot from '../assets/foodie-spot.png';
 import photoPort from '../assets/ohSnap.png';
+import slayTheMarket from '../assets/stm.png';
 
 const Projects = () => {
     const projects = [
@@ -53,6 +54,14 @@ const Projects = () => {
             cardText: "Basic photography site made using React",
             link: "https://brt9029.github.io/photo-port/#about",
             buttonText: "Visit the site!"
+        },
+        {
+            cardTitle: "Slay the Market",
+            cardImage: `${slayTheMarket}`,
+            cardText: "Card game made using React.js and Stock values for card stats. " +
+            "Battle against NFTs and other ridiculous monsters as you use stock cards in combat (yes, there are memes)",
+            link: "https://tgtiburon-slay-the-market.herokuapp.com/Player",
+            buttonText: "Give it a try!"
         }
 
     ]
