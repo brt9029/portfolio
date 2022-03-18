@@ -63,7 +63,6 @@ const Projects = () => {
             link: "https://tgtiburon-slay-the-market.herokuapp.com/Player",
             buttonText: "Give it a try!"
         }
-
     ]
 
     return (
