@@ -169,6 +169,14 @@ footer ul li a:hover {
   display: block;
 }
 
+.projects h2 {
+  color: #03e9f4;
+}
+
+.projects .card-title {
+  color: var(--button-text);
+}
+
 .about, .btn {
   display: flex;
   justify-content: center;
@@ -176,6 +184,10 @@ footer ul li a:hover {
 
 .about btn {
   margin-right: 0;
+}
+
+.about h2 {
+  color: #03e9f4;
 }
 
 .about .card-img {
@@ -213,6 +225,14 @@ footer ul li a:hover {
   width: 40%;
 }
 
+.contact  h3 {
+  color: #03e9f4;
+}
+
+.contact form {
+  color: var(--button-text);
+}
+
 .contact .form-input {
   display: block;
   padding: 7px 15px;
@@ -237,17 +257,21 @@ footer ul li a:hover {
 
 .resume li {
   list-style-type: none;
+  color: var(--button-text);
 }
 
 .resume h3 {
   margin-top: 2%;
   font-size: 32px;
+  color: #03e9f4;
 }
 
 .resume a {
   margin: 3.5%;
   width: 40%;
+  color: var(--button-text);
 }
+
 
 @media screen and (max-width: 768px) {
   .hero-image img {

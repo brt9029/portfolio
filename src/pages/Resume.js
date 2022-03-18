@@ -16,7 +16,7 @@ const Resume = () => {
                 </ul>
                 <span></span>
                 <h3>View my resume below</h3>
-                <a href={resume}><h4>Click Here!</h4></a>
+                <a href={resume} className="resume-btn"><h4>Click Here!</h4></a>
         </section>
     )
 }
