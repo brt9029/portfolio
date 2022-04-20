@@ -10,8 +10,8 @@ const Projects = () => {
         {
             cardTitle: "Block Breaker",
             cardImage: `${blockBreaker}`,
-            cardText: "Breakout game made using Unity & C#, objects were drawn by me, background" +
-            " ",
+            cardText: "Breakout game made using Unity & C#, objects were drawn by me, background " +
+            "images were found from free wallpaper sites.",
             link: "https://brt9029.itch.io/block-breaker",
             buttonText: "Try it!"
         },
@@ -54,16 +54,16 @@ const Projects = () => {
                 {projects0.map((project) =>
                     <div className="card span-6">
                         <img 
-                          className="card-img-top"
-                          src={project.cardImage}
-                          alt={project.cardTitle + ' preview'}
-                          key={project.cardTitle}
-                          width="350" height="250" />
+                            className="card-img-top"
+                            src={project.cardImage}
+                            alt={project.cardTitle + ' preview'}
+                            key={project.cardTitle}
+                            width="350" height="250" 
+                        />
                             <div className="card-body">
                                 <h3 className="card-title">{project.cardTitle}</h3>
-                                <span></span>
                                 <a href={project.link} className="btn" target="_blank" rel="noreferrer">{project.buttonText}</a>
-                                <p className="card-text">{project.cardText}</p>
+                                <p className="card-text project-text">{project.cardText}</p>
                             </div>
                     </div>
                 )}
@@ -72,16 +72,16 @@ const Projects = () => {
                 {projects1.map((project) =>
                     <div className="card span-6">
                         <img 
-                          className="card-img-top"
-                          src={project.cardImage}
-                          alt={project.cardTitle + ' preview'}
-                          key={project.cardTitle}
-                          width="350" height="250" />
+                            className="card-img-top"
+                            src={project.cardImage}
+                            alt={project.cardTitle + ' preview'}
+                            key={project.cardTitle}
+                            width="350" height="250" 
+                        />
                             <div className="card-body">
                                 <h3 className="card-title">{project.cardTitle}</h3>
-                                <span></span>
                                 <a href={project.link} className="btn" target="_blank" rel="noreferrer">{project.buttonText}</a>
-                                <p className="card-text">{project.cardText}</p>
+                                <p className="card-text project-text">{project.cardText}</p>
                             </div>
                     </div>
                 )}

@@ -15,7 +15,7 @@ import mysql from '../assets/mysql.png';
 
 import resume from '../assets/Bryant_Torres_Resume.PDF';
 
-const Resume = () => {
+const Skills = () => {
     const frontEnd = [
         {
             languageName: "HTML",
@@ -78,7 +78,7 @@ const Resume = () => {
     ]
     return (
         <section className="skills row">
-            <div className="col-6">
+            <div className="col-12 col-md-6">
                 <h3>Front end Languages:</h3>
                 <ul className="front-end">
                     {frontEnd.map((language) => (
@@ -91,7 +91,7 @@ const Resume = () => {
                 </ul>
             </div>
 
-            <div className="col-6">
+            <div className="col-12 col-md-6">
                 <h3>Back end Languages:</h3>
                 <ul className="back-end">
                     {backEnd.map((language) =>(
@@ -103,11 +103,12 @@ const Resume = () => {
                     ))}
                 </ul>
             </div>
-
-            <span></span>
-            <a href={resume} className="resume-btn"><h4>View my Resume</h4></a>
+            
+            <div className="resume-text">
+                <a href={resume} className="resume-btn"><h4>View my Resume</h4></a>
+            </div>
         </section>
     )
 }
 
-export default Resume;
+export default Skills;

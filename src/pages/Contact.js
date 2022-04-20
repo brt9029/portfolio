@@ -40,12 +40,8 @@ const Contact = () => {
                     <li
                       key={category.name}
                       >
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                          <a href={category.url} target="_blank"><img src={category.image} className="contact-icons"></img>{category.name}</a>
-                      </li>
+                        <a href={category.url} target="_blank" rel="noreferrer"><img src={category.image} className="contact-icons"></img>{category.name}</a>
+                    </li>
                 ))}
             </ul>
         </>

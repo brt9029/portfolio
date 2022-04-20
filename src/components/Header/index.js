@@ -16,8 +16,8 @@ const Header = () => {
             description: "Contact information"
         },
         {
-            name: "Resume",
-            description: "Resume"
+            name: "Skills",
+            description: "Skills"
         },
         {
             name: "Credits",
@@ -27,20 +27,26 @@ const Header = () => {
 
     return (
         <header>
-            <Link to='/'>
-                <h1 className="m-0">Bryant Torres</h1>
-            </Link>
+            <div className="me">
+                    <h1>Bryant Torres</h1>
+                <div className="dropdown-content">
+                    {categories.map((category) => (
+                        <li
+                            key={category.name}
+                        >
+                            <Link to={`/${category.name}`}>{category.name}</Link>
+                        </li>
+                    ))}
+                </div>
+            </div>
+            
             <ul>
                 {categories.map((category) => (
                     <li
-                      key={category.name}
-                      >
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                          <Link to={`/${category.name}`}>{category.name}</Link>
-                      </li>
+                        key={category.name}
+                    >
+                        <Link to={`/${category.name}`}>{category.name}</Link>
+                    </li>
                 ))}
             </ul>
         </header>
