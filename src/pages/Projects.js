@@ -1,45 +1,31 @@
 import React from 'react';
 
-import runBuddy from '../assets/run-buddy.jpg';
-import robotGladiators from '../assets/robot-gladiators.jpg';
 import blockBreaker from '../assets/block-breaker.PNG';
-import techPort from '../assets/tech-port.png';
+import pythonGen from '../assets/pythonGen.png';
 import foodieSpot from '../assets/foodie-spot.png';
-import photoPort from '../assets/ohSnap.png';
 import slayTheMarket from '../assets/stm.png';
 
 const Projects = () => {
-    const projects = [
-        {
-            cardTitle: "Run Buddy",
-            cardImage: `${runBuddy}`,
-            cardText: "Exercise website for users to enroll with a personal trainer (CSS & HTML)",
-            link: "https://brt9029.github.io/run-buddy/",
-            buttonText: "Visit the site!"
-        },
-        {
-            cardTitle: "Robot Gladiators",
-            cardImage: `${robotGladiators}`,
-            cardText: "Text based battle simulator (JS & HTML)",
-            link: "https://brt9029.github.io/robot-gladiators/",
-            buttonText: "Try it out!"
-        },
+    const projects0 = [
         {
             cardTitle: "Block Breaker",
             cardImage: `${blockBreaker}`,
-            cardText: "Breakout game made using Unity & C#",
+            cardText: "Breakout game made using Unity & C#, objects were drawn by me, background" +
+            " ",
             link: "https://brt9029.itch.io/block-breaker",
             buttonText: "Try it!"
         },
         {
-            cardTitle: "Tech Port",
-            cardImage: `${techPort}`,
-            cardText: "My first Team Project! We used JQuery, Bulma CSS, NY Times API, and Virus Total API." +
-            "The site offers a real-time URL scanner as well as some of the latest NY Times" +
-            "Tech articles to look at while waiting for the scan to finish!",
-            link: "https://github.com/tgtiburon/Web_Security",
-            buttonText: "Visit the site!"
-        },
+            cardTitle: "Password Generator",
+            cardImage: `${pythonGen}`,
+            cardText: "Python script for generating passwords, includes letters," +
+            " numbers, and special characters if selected to be included",
+            link: "https://github.com/brt9029/python-password-generator",
+            buttonText: "Github Repository"
+        }
+    ]
+
+    const projects1 = [
         {
             cardTitle: "Foodie Spot",
             cardImage: `${foodieSpot}`,
@@ -49,20 +35,13 @@ const Projects = () => {
             buttonText: "Visit the site!"
         },
         {
-            cardTitle: "Photo Port",
-            cardImage: `${photoPort}`,
-            cardText: "Basic photography site made using React",
-            link: "https://brt9029.github.io/photo-port/#about",
-            buttonText: "Visit the site!"
-        },
-        {
             cardTitle: "Slay the Market",
             cardImage: `${slayTheMarket}`,
-            cardText: "Card game made using React.js and Stock values for card stats. " +
+            cardText: "My Third Team Project! This is a Card game made using React.js and Stock values for card stats. " +
             "Battle against NFTs and other ridiculous monsters as you use stock cards in combat (yes, there are memes)",
             link: "https://tgtiburon-slay-the-market.herokuapp.com/Player",
             buttonText: "Give it a try!"
-        }
+        },
     ]
 
     return (
@@ -72,7 +51,7 @@ const Projects = () => {
             </h2>
 
             <div className="card-group row-fluid">
-                {projects.map((project) =>
+                {projects0.map((project) =>
                     <div className="card span-6">
                         <img 
                           className="card-img-top"
@@ -82,8 +61,27 @@ const Projects = () => {
                           width="350" height="250" />
                             <div className="card-body">
                                 <h3 className="card-title">{project.cardTitle}</h3>
-                                <p className="card-text">{project.cardText}</p>
+                                <span></span>
                                 <a href={project.link} className="btn" target="_blank">{project.buttonText}</a>
+                                <p className="card-text">{project.cardText}</p>
+                            </div>
+                    </div>
+                )}
+            </div>
+            <div className="card-group row-fluid">
+                {projects1.map((project) =>
+                    <div className="card span-6">
+                        <img 
+                          className="card-img-top"
+                          src={project.cardImage}
+                          alt={project.cardTitle + ' preview'}
+                          key={project.cardTitle}
+                          width="350" height="250" />
+                            <div className="card-body">
+                                <h3 className="card-title">{project.cardTitle}</h3>
+                                <span></span>
+                                <a href={project.link} className="btn" target="_blank">{project.buttonText}</a>
+                                <p className="card-text">{project.cardText}</p>
                             </div>
                     </div>
                 )}

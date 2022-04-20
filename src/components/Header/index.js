@@ -18,6 +18,10 @@ const Header = () => {
         {
             name: "Resume",
             description: "Resume"
+        },
+        {
+            name: "Credits",
+            description: "Credits"
         }
     ]
 

@@ -147,6 +147,11 @@ footer ul li a:hover {
   color: white;
 }
 
+.about {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 
 .btn {
   color: var(--button-text);
@@ -177,9 +182,10 @@ footer ul li a:hover {
   color: var(--button-text);
 }
 
-.about, .btn {
+.btn {
   display: flex;
   justify-content: center;
+  width: 40%;
 }
 
 .about btn {
@@ -219,57 +225,65 @@ footer ul li a:hover {
 .contact {
   font-weight: bold;
   text-shadow: 1px 1px var(--shadow);
+  list-style-type: none;
   color: var(--light-green);
   padding: 20px;
   margin: 3.5%;
-  width: 40%;
+  width: 100%;
+  text-align: center;
 }
 
 .contact  h3 {
   color: #03e9f4;
 }
 
-.contact form {
-  color: var(--button-text);
+.contact-icons {
+  max-width: 10%;
+  max-height: 10%;
+  padding-right: 25px;
 }
 
-.contact .form-input {
-  display: block;
-  padding: 7px 15px;
-  width: 100%;
-}
-
-.contact .btn {
-  margin-top: 2%;
-}
-
-.form-input {
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.75);
-}
-
-.resume {
+.skills {
   text-align: center;
   color: var(--light-green);
   text-shadow: 1px 1px var(--shadow);
   margin: 3.5%;
 }
 
-.resume li {
+.skills li {
   list-style-type: none;
   color: var(--button-text);
 }
 
-.resume h3 {
+.skills h3 {
   margin-top: 2%;
   font-size: 32px;
   color: #03e9f4;
 }
 
-.resume a {
+.skills a {
   margin: 3.5%;
   width: 40%;
   color: var(--button-text);
+}
+
+.skills img {
+  max-width: 10%;
+  max-height: 5%;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+
+.contact-icons {
+  max-width: 10%;
+  max-height: 10%;
+  padding-right: 25px;
+}
+
+.credits-list {
+  padding-top: 5%;
+  list-style-type: none;
+  text-align: center;
 }
 
 

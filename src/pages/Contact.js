@@ -1,62 +1,55 @@
-import React, { useState } from 'react';
-import { validateEmail } from '../utils/helpers';
+import React from 'react';
+
+import gitHub from '../assets/gitHub.png';
+import linkedIn from '../assets/linkedIn.png';
+import stackOverflow from '../assets/stackOverflow.png';
+import gmail from '../assets/gmail.png';
 
 const Contact = () => {
-    const [formState, setFormState] = useState('');
-
-    const { name, email, message } = formState;
-
-    const [errorMessage, setErrorMessage] = useState('');
-
-    function handleChange(e) {
-        if (e.target.name === 'email') {
-            const isValid = validateEmail(e.target.value)
-            if (!isValid) {
-                setErrorMessage('Your email is invalid.');
-            } else {
-                setErrorMessage('');
-            }
-        } else {
-            if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required.`);
-            } else {
-                setErrorMessage('');
-            }
+    const categories = [
+        {
+            name: "GitHub",
+            description: "Github profile",
+            url: "https://github.com/brt9029",
+            image: `${gitHub}`
+        },
+        {
+            name: "LinkedIn",
+            description: "Linked in profile",
+            url: "https://www.linkedin.com/in/bryant-torres-77524321a/",
+            image: `${linkedIn}`
+        },
+        {
+            name: "Stack Overflow",
+            description: "Stack Overflow profile",
+            url: "https://stackoverflow.com/users/16704969/brt90299",
+            image: `${stackOverflow}`
+        },
+        {
+            name: "E-mail",
+            description: "Send an e-mail",
+            url: "mailto:brt9029@gmail.com",
+            image: `${gmail}`
         }
-        if (!errorMessage) {
-            setFormState({...formState, [e.target.name]: e.target.value})
-        }
-    }
-
-    function handleSubmit(e) {
-        e.preventDefault();
-    }
+    ]
 
     return (
-        <section id="contact" className="contact">
-            <h3>Contact Me</h3>
-            <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name"><h4>Name:</h4></label>
-                    <input type="text" className="form-input" defaultValue={name} name="name" onBlur={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="email"><h4>Email address:</h4></label>
-                    <input type="email" className="form-input" defaultValue={email} name="email" onBlur={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="message"><h4>Message:</h4></label>
-                    <textarea name="message" className="form-input" defaultValue={message} row="5" onBlur={handleChange} />
-                </div>
-                {errorMessage && (
-                    <div>
-                        <p className="error-text">{errorMessage}</p>
-                    </div>
-                )}
-                <button className="btn" type="submit"><h5>Submit</h5></button>
-            </form>
-        </section>
+        <>
+            <ul className="contact">
+                {categories.map((category) => (
+                    <li
+                      key={category.name}
+                      >
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <a href={category.url} target="_blank"><img src={category.image} className="contact-icons"></img>{category.name}</a>
+                      </li>
+                ))}
+            </ul>
+        </>
     )
-}
+};
 
 export default Contact;

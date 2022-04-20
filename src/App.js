@@ -2,13 +2,12 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Switch } from 'react-router-dom';
 
 import Header from './components/Header';
-import Footer from './components/Footer';
 
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
-import NoMatch from './pages/NoMatch';
+import Credits from './pages/Credits';
 
 function App() {
   return (
@@ -20,10 +19,10 @@ function App() {
         <Route exact path="/Projects" component={Projects} />
         <Route exact path="/Contact" component={Contact} />
         <Route exact path="/Resume" component={Resume} />
+        <Route exact path="/Credits" component={Credits} />
 
         <Route component={About} />
       </Switch>
-      <Footer />
     </Router>
 
   );
