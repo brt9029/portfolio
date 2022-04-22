@@ -14,12 +14,12 @@ function App() {
     <Router>
       <Header />
       <Switch>
-        <Route exact path="/" component={About} />
-        <Route exact path="/About" component={About} />
-        <Route exact path="/Projects" component={Projects} />
-        <Route exact path="/Contact" component={Contact} />
-        <Route exact path="/Skills" component={Skills} />
-        <Route exact path="/Credits" component={Credits} />
+        <Route exact path="https://brt9029.github.io/fantastic-waffle/" component={About} />
+        <Route exact path="https://brt9029.github.io/fantastic-waffle/About" component={About} />
+        <Route exact path="https://brt9029.github.io/fantastic-waffle/Projects" component={Projects} />
+        <Route exact path="https://brt9029.github.io/fantastic-waffle/Contact" component={Contact} />
+        <Route exact path="https://brt9029.github.io/fantastic-waffle/Skills" component={Skills} />
+        <Route exact path="https://brt9029.github.io/fantastic-waffle/Credits" component={Credits} />
 
         <Route component={About} />
       </Switch>
