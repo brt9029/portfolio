@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fantastic-waffle/static/css/main.6139efb8.css",
-    "main.js": "/fantastic-waffle/static/js/main.05fa2f20.js",
+    "main.js": "/fantastic-waffle/static/js/main.8833a3d7.js",
     "static/js/787.1ed0c42c.chunk.js": "/fantastic-waffle/static/js/787.1ed0c42c.chunk.js",
     "static/media/foodie-spot.png": "/fantastic-waffle/static/media/foodie-spot.4e6de7ff3f3a04c56819.png",
     "static/media/critique-code.png": "/fantastic-waffle/static/media/critique-code.a15a07dfa6cb89c447f1.png",
@@ -21,11 +21,11 @@
     "static/media/react-seeklogo.com.svg": "/fantastic-waffle/static/media/react-seeklogo.com.ae62622598f39552abdcdb023e554c6f.svg",
     "index.html": "/fantastic-waffle/index.html",
     "main.6139efb8.css.map": "/fantastic-waffle/static/css/main.6139efb8.css.map",
-    "main.05fa2f20.js.map": "/fantastic-waffle/static/js/main.05fa2f20.js.map",
+    "main.8833a3d7.js.map": "/fantastic-waffle/static/js/main.8833a3d7.js.map",
     "787.1ed0c42c.chunk.js.map": "/fantastic-waffle/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6139efb8.css",
-    "static/js/main.05fa2f20.js"
+    "static/js/main.8833a3d7.js"
   ]
 }
