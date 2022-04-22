@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/fantastic-waffle/static/css/main.34731f13.css",
-    "main.js": "/fantastic-waffle/static/js/main.670397b9.js",
+    "main.css": "/fantastic-waffle/static/css/main.6139efb8.css",
+    "main.js": "/fantastic-waffle/static/js/main.05fa2f20.js",
     "static/js/787.1ed0c42c.chunk.js": "/fantastic-waffle/static/js/787.1ed0c42c.chunk.js",
     "static/media/foodie-spot.png": "/fantastic-waffle/static/media/foodie-spot.4e6de7ff3f3a04c56819.png",
+    "static/media/critique-code.png": "/fantastic-waffle/static/media/critique-code.a15a07dfa6cb89c447f1.png",
     "static/media/nodeJS.png": "/fantastic-waffle/static/media/nodeJS.e1d9233897fbe03fda7b.png",
+    "static/media/tech-port.png": "/fantastic-waffle/static/media/tech-port.50b4731584922fba7589.png",
     "static/media/stm.png": "/fantastic-waffle/static/media/stm.25b1c7c2301bad86dbc5.png",
     "static/media/Bryant_Torres_Resume.PDF": "/fantastic-waffle/static/media/Bryant_Torres_Resume.d9aefa2f3c85419d99a3.PDF",
-    "static/media/pythonGen.png": "/fantastic-waffle/static/media/pythonGen.c804240fc3e540d109ee.png",
     "static/media/mongoDB.png": "/fantastic-waffle/static/media/mongoDB.dd552a55b534b0083148.png",
     "static/media/mysql.png": "/fantastic-waffle/static/media/mysql.4610cbabbff468ff8ae3.png",
     "static/media/gitHub.png": "/fantastic-waffle/static/media/gitHub.a5527b5c02e754fc4a6d.png",
@@ -19,12 +20,12 @@
     "static/media/js.png": "/fantastic-waffle/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/react-seeklogo.com.svg": "/fantastic-waffle/static/media/react-seeklogo.com.ae62622598f39552abdcdb023e554c6f.svg",
     "index.html": "/fantastic-waffle/index.html",
-    "main.34731f13.css.map": "/fantastic-waffle/static/css/main.34731f13.css.map",
-    "main.670397b9.js.map": "/fantastic-waffle/static/js/main.670397b9.js.map",
+    "main.6139efb8.css.map": "/fantastic-waffle/static/css/main.6139efb8.css.map",
+    "main.05fa2f20.js.map": "/fantastic-waffle/static/js/main.05fa2f20.js.map",
     "787.1ed0c42c.chunk.js.map": "/fantastic-waffle/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34731f13.css",
-    "static/js/main.670397b9.js"
+    "static/css/main.6139efb8.css",
+    "static/js/main.05fa2f20.js"
   ]
 }

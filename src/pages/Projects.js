@@ -1,7 +1,8 @@
 import React from 'react';
 
 import blockBreaker from '../assets/block-breaker.PNG';
-import pythonGen from '../assets/pythonGen.png';
+import techPort from '../assets/tech-port.png';
+import critiqueCode from '../assets/critique-code.png';
 import foodieSpot from '../assets/foodie-spot.png';
 import slayTheMarket from '../assets/stm.png';
 
@@ -16,13 +17,14 @@ const Projects = () => {
             buttonText: "Try it!"
         },
         {
-            cardTitle: "Password Generator",
-            cardImage: `${pythonGen}`,
-            cardText: "Python script for generating passwords, includes letters," +
-            " numbers, and special characters if selected to be included",
-            link: "https://github.com/brt9029/python-password-generator",
-            buttonText: "Github Repository"
-        }
+            cardTitle: "Tech Port",
+            cardImage: `${techPort}`,
+            cardText: "My first Team Project! We used JQuery, Bulma CSS, NY Times API, and Virus Total API." +
+            "The site offers a real-time URL scanner as well as some of the latest NY Times" +
+            "Tech articles to look at while waiting for the scan to finish!",
+            link: "https://github.com/tgtiburon/Web_Security",
+            buttonText: "GitHub Repository"
+        },
     ]
 
     const projects1 = [
@@ -39,9 +41,17 @@ const Projects = () => {
             cardImage: `${slayTheMarket}`,
             cardText: "My Third Team Project! This is a Card game made using React.js and Stock values for card stats. " +
             "Battle against NFTs and other ridiculous monsters as you use stock cards in combat (yes, there are memes)",
-            link: "https://tgtiburon-slay-the-market.herokuapp.com/Player",
-            buttonText: "Give it a try!"
+            link: "https://github.com/Sloansta/slay-the-market",
+            buttonText: "GitHub Repository"
         },
+        {
+            cardTitle: "Critique Code",
+            cardImage: `${critiqueCode}`,
+            cardText: "Website created after finishing the coding camp at MSU. We took a previously made site and converted it to a " +
+            "React and MongoDB site. Note: This has not been fully completed and is not completely funcitonal.",
+            link: "https://critique-code.herokuapp.com/",
+            buttonText: "Visit the site!"
+        }
     ]
 
     return (

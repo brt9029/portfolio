@@ -103,7 +103,7 @@ const Skills = () => {
                     ))}
                 </ul>
             </div>
-            
+
             <div className="resume-text">
                 <a href={resume} className="resume-btn"><h4>View my Resume</h4></a>
             </div>
