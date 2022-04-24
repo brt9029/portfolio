@@ -209,11 +209,13 @@ p {
 }
 
 .skills li {
-  list-style-type: none;
   color: var(--text);
+  list-style: none;
+  list-style-position: inside;
 }
 
 .skills h3 {
+  text-align: left;
   margin-top: 2%;
   font-size: 32px;
   color: var(--main);
@@ -221,7 +223,6 @@ p {
 
 .skills a {
   margin: 3.5%;
-  width: 40%;
   color: var(--text);
 }
 
@@ -230,6 +231,15 @@ p {
   max-height: 87px;
   padding-right: 25px;
   padding-bottom: 25px;
+}
+
+.front {
+  border: 2px solid var(--main);
+  border-right: none;
+}
+
+.back {
+  border: 2px solid var(--main);
 }
 
 .resume-text h4 {
