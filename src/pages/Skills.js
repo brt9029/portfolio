@@ -7,7 +7,7 @@ import javaScript from '../assets/js.png';
 // import rubyOnRails from '../assets/ruby.png';
 // import c from '../assets/c-sharp.png';
 import express from '../assets/expressJS.png';
-import react from '../assets/react-seeklogo.com.svg';
+import react from '../assets/react.png';
 import mongo from '../assets/mongoDB.png';
 import node from '../assets/nodeJS.png';
 import mysql from '../assets/mysql.png';

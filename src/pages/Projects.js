@@ -1,7 +1,8 @@
 import React from 'react';
 
-import blockBreaker from '../assets/block-breaker.PNG';
+import blockBreaker from '../assets/block-breaker.gif';
 import techPort from '../assets/tech-port.png';
+import newsFeed from '../assets/newsFeed.png';
 import critiqueCode from '../assets/critique-code.png';
 import foodieSpot from '../assets/foodie-spot.png';
 import slayTheMarket from '../assets/stm.png';
@@ -24,6 +25,13 @@ const Projects = () => {
             "Tech articles to look at while waiting for the scan to finish!",
             link: "https://github.com/tgtiburon/Web_Security",
             buttonText: "GitHub Repository"
+        },
+        {
+            cardTitle: "News Feed",
+            cardImage: `${newsFeed}`,
+            cardText: "Took an already existing app and converted it to use Python and Flask.",
+            link: "https://burning-igloo.herokuapp.com/",
+            buttonText: "Visit the site!"
         },
     ]
 

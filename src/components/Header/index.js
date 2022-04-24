@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import hero from '../../assets/hero.png';
+
 const Header = () => {
     const categories = [
         {
@@ -19,16 +21,15 @@ const Header = () => {
             name: "Skills",
             description: "Skills"
         },
-        {
-            name: "Credits",
-            description: "Credits"
-        }
+        // {
+        //     name: "Credits",
+        //     description: "Credits"
+        // }
     ]
 
     return (
         <header>
-            <div className="me">
-                    <h1>Bryant Torres</h1>
+            <img className="me" src={hero}></img>
                 <div className="dropdown-content">
                     {categories.map((category) => (
                         <li
@@ -38,8 +39,7 @@ const Header = () => {
                         </li>
                     ))}
                 </div>
-            </div>
-            
+
             <ul>
                 {categories.map((category) => (
                     <li
