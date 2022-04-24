@@ -242,8 +242,19 @@ p {
   border: 2px solid var(--main);
 }
 
-.resume-text h4 {
-  color: var(--main);
+.resume-stuff {
+  width: 100%;
+}
+
+.resume-stuff img {
+  margin-top: 20px;
+}
+
+.resume-text {
+  width: 50%;
+  color: var(--text);
+  margin-left: 38%;
+  text-shadow: 1px 1px var(--background);
 }
 
 .credits-list {

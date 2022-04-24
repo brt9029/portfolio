@@ -11,6 +11,7 @@ import react from '../assets/react.png';
 import mongo from '../assets/mongoDB.png';
 import node from '../assets/nodeJS.png';
 import mysql from '../assets/mysql.png';
+import toaster from '../assets/brunch-cartoon.gif';
 
 
 import resume from '../assets/Bryant_Torres_Resume.PDF';
@@ -77,38 +78,47 @@ const Skills = () => {
         }
     ]
     return (
-        <section className="skills row">
-            <div className="col-md-3"></div>
-            <div className="col-12 col-md-3 front">
-                <h3>Front End Languages:</h3>
-                <ul className="front-end">
-                    {frontEnd.map((language) => (
-                        <li
-                            key={language.languageName}
-                        >
-                            <img src={language.image} alt={language.description}></img>{language.languageName}
-                        </li>
-                    ))}
-                </ul>
-            </div>
+        <>
+            <section className="skills row">
+                <div className="col-md-3"></div>
+                    <div className="col-12 col-md-3 front">
+                        <h3>Front End Languages:</h3>
+                        <ul className="front-end">
+                            {frontEnd.map((language) => (
+                                <li
+                                    key={language.languageName}
+                                >
+                                    <img src={language.image} alt={language.description}></img>{language.languageName}
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
 
-            <div className="col-12 col-md-3 back">
-                <h3>Back End Languages:</h3>
-                <ul className="back-end">
-                    {backEnd.map((language) =>(
-                        <li
-                            key={language.backEnd}
-                        >
-                            <img src={language.image} alt={language.description}></img>{language.backEnd}
-                        </li>
-                    ))}
-                </ul>
-            </div>
-            <div className="col-md-3"></div>
-            <div className="resume-text">
-                <a href={resume} className="resume-btn"><h4>View My Resume</h4></a>
-            </div>
-        </section>
+                <div className="col-12 col-md-3 back">
+                    <h3>Back End Languages:</h3>
+                    <ul className="back-end">
+                        {backEnd.map((language) =>(
+                            <li
+                                key={language.backEnd}
+                            >
+                                <img src={language.image} alt={language.description}></img>{language.backEnd}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+                    <div className="col-md-3"></div>
+                <div className="resume-stuff">
+                    <div class="tenor-gif-embed" data-postid="15596784" data-share-method="host" data-aspect-ratio="0.834375" data-width="100%">
+                        <img src={toaster}></img>
+                    </div>
+
+                    <div className="resume-text">
+                        <a href={resume} className="resume-btn btn"><h4>View My Resume</h4></a>
+                    </div>
+                </div>
+            </section>        
+
+        </>
     )
 }
 

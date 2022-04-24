@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fantastic-waffle/static/css/main.d3a13abe.css",
-    "main.js": "/fantastic-waffle/static/js/main.9a55dae7.js",
+    "main.css": "/fantastic-waffle/static/css/main.29ce7c61.css",
+    "main.js": "/fantastic-waffle/static/js/main.179663c7.js",
     "static/js/787.1ed0c42c.chunk.js": "/fantastic-waffle/static/js/787.1ed0c42c.chunk.js",
     "static/media/foodie-spot.png": "/fantastic-waffle/static/media/foodie-spot.ee3ce57dba4cf86ae5f7.png",
     "static/media/critique-code.png": "/fantastic-waffle/static/media/critique-code.0e4f1e82c3e45344bad9.png",
@@ -13,12 +13,12 @@
     "static/media/Bryant_Torres_Resume.PDF": "/fantastic-waffle/static/media/Bryant_Torres_Resume.d9aefa2f3c85419d99a3.PDF",
     "static/media/hero.png": "/fantastic-waffle/static/media/hero.72c2a83d4dbff57e2b9f.png",
     "index.html": "/fantastic-waffle/index.html",
-    "main.d3a13abe.css.map": "/fantastic-waffle/static/css/main.d3a13abe.css.map",
-    "main.9a55dae7.js.map": "/fantastic-waffle/static/js/main.9a55dae7.js.map",
+    "main.29ce7c61.css.map": "/fantastic-waffle/static/css/main.29ce7c61.css.map",
+    "main.179663c7.js.map": "/fantastic-waffle/static/js/main.179663c7.js.map",
     "787.1ed0c42c.chunk.js.map": "/fantastic-waffle/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3a13abe.css",
-    "static/js/main.9a55dae7.js"
+    "static/css/main.29ce7c61.css",
+    "static/js/main.179663c7.js"
   ]
 }
