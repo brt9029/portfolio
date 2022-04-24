@@ -1,31 +1,24 @@
 {
   "files": {
-    "main.css": "/fantastic-waffle/static/css/main.6139efb8.css",
-    "main.js": "/fantastic-waffle/static/js/main.05fa2f20.js",
+    "main.css": "/fantastic-waffle/static/css/main.d3a13abe.css",
+    "main.js": "/fantastic-waffle/static/js/main.9a55dae7.js",
     "static/js/787.1ed0c42c.chunk.js": "/fantastic-waffle/static/js/787.1ed0c42c.chunk.js",
-    "static/media/foodie-spot.png": "/fantastic-waffle/static/media/foodie-spot.4e6de7ff3f3a04c56819.png",
-    "static/media/critique-code.png": "/fantastic-waffle/static/media/critique-code.a15a07dfa6cb89c447f1.png",
-    "static/media/nodeJS.png": "/fantastic-waffle/static/media/nodeJS.e1d9233897fbe03fda7b.png",
-    "static/media/tech-port.png": "/fantastic-waffle/static/media/tech-port.50b4731584922fba7589.png",
-    "static/media/stm.png": "/fantastic-waffle/static/media/stm.25b1c7c2301bad86dbc5.png",
+    "static/media/foodie-spot.png": "/fantastic-waffle/static/media/foodie-spot.ee3ce57dba4cf86ae5f7.png",
+    "static/media/critique-code.png": "/fantastic-waffle/static/media/critique-code.0e4f1e82c3e45344bad9.png",
+    "static/media/newsFeed.png": "/fantastic-waffle/static/media/newsFeed.23baf5726e324316e5d9.png",
+    "static/media/stm.png": "/fantastic-waffle/static/media/stm.e6256cb1519383131257.png",
+    "static/media/block-breaker.gif": "/fantastic-waffle/static/media/block-breaker.f0d4e5b078c08b1ba842.gif",
+    "static/media/tech-port.png": "/fantastic-waffle/static/media/tech-port.e0f259034f7169d91117.png",
+    "static/media/self-portrait.png": "/fantastic-waffle/static/media/self-portrait.35edd40bb25c616893b7.png",
     "static/media/Bryant_Torres_Resume.PDF": "/fantastic-waffle/static/media/Bryant_Torres_Resume.d9aefa2f3c85419d99a3.PDF",
-    "static/media/mongoDB.png": "/fantastic-waffle/static/media/mongoDB.dd552a55b534b0083148.png",
-    "static/media/mysql.png": "/fantastic-waffle/static/media/mysql.4610cbabbff468ff8ae3.png",
-    "static/media/gitHub.png": "/fantastic-waffle/static/media/gitHub.a5527b5c02e754fc4a6d.png",
-    "static/media/stackOverflow.png": "/fantastic-waffle/static/media/stackOverflow.579cff432dec19bc3d23.png",
-    "static/media/block-breaker.PNG": "/fantastic-waffle/static/media/block-breaker.e9a98f5b251f9c10b148.PNG",
-    "static/media/html-5.png": "/fantastic-waffle/static/media/html-5.b2db3a7f6897f0a6e75c.png",
-    "static/media/css-3.png": "/fantastic-waffle/static/media/css-3.4a6549b8c2b4cda8bb88.png",
-    "static/media/linkedIn.png": "/fantastic-waffle/static/media/linkedIn.f249b38224ca41a0b909.png",
-    "static/media/js.png": "/fantastic-waffle/static/media/js.3dfb665e058d08c99f28.png",
-    "static/media/react-seeklogo.com.svg": "/fantastic-waffle/static/media/react-seeklogo.com.ae62622598f39552abdcdb023e554c6f.svg",
+    "static/media/hero.png": "/fantastic-waffle/static/media/hero.72c2a83d4dbff57e2b9f.png",
     "index.html": "/fantastic-waffle/index.html",
-    "main.6139efb8.css.map": "/fantastic-waffle/static/css/main.6139efb8.css.map",
-    "main.05fa2f20.js.map": "/fantastic-waffle/static/js/main.05fa2f20.js.map",
+    "main.d3a13abe.css.map": "/fantastic-waffle/static/css/main.d3a13abe.css.map",
+    "main.9a55dae7.js.map": "/fantastic-waffle/static/js/main.9a55dae7.js.map",
     "787.1ed0c42c.chunk.js.map": "/fantastic-waffle/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6139efb8.css",
-    "static/js/main.05fa2f20.js"
+    "static/css/main.d3a13abe.css",
+    "static/js/main.9a55dae7.js"
   ]
 }
