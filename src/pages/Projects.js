@@ -1,33 +1,19 @@
 import React from 'react';
 
-import runBuddy from '../assets/run-buddy.jpg';
-import robotGladiators from '../assets/robot-gladiators.jpg';
-import blockBreaker from '../assets/block-breaker.PNG';
+import blockBreaker from '../assets/block-breaker.gif';
 import techPort from '../assets/tech-port.png';
+import newsFeed from '../assets/newsFeed.png';
+import critiqueCode from '../assets/critique-code.png';
 import foodieSpot from '../assets/foodie-spot.png';
-import photoPort from '../assets/ohSnap.png';
 import slayTheMarket from '../assets/stm.png';
 
 const Projects = () => {
-    const projects = [
-        {
-            cardTitle: "Run Buddy",
-            cardImage: `${runBuddy}`,
-            cardText: "Exercise website for users to enroll with a personal trainer (CSS & HTML)",
-            link: "https://brt9029.github.io/run-buddy/",
-            buttonText: "Visit the site!"
-        },
-        {
-            cardTitle: "Robot Gladiators",
-            cardImage: `${robotGladiators}`,
-            cardText: "Text based battle simulator (JS & HTML)",
-            link: "https://brt9029.github.io/robot-gladiators/",
-            buttonText: "Try it out!"
-        },
+    const projects0 = [
         {
             cardTitle: "Block Breaker",
             cardImage: `${blockBreaker}`,
-            cardText: "Breakout game made using Unity & C#",
+            cardText: "Breakout game made using Unity & C#, objects were drawn by me, background " +
+            "images were found from free wallpaper sites.",
             link: "https://brt9029.itch.io/block-breaker",
             buttonText: "Try it!"
         },
@@ -38,8 +24,18 @@ const Projects = () => {
             "The site offers a real-time URL scanner as well as some of the latest NY Times" +
             "Tech articles to look at while waiting for the scan to finish!",
             link: "https://github.com/tgtiburon/Web_Security",
+            buttonText: "GitHub Repository"
+        },
+        {
+            cardTitle: "News Feed",
+            cardImage: `${newsFeed}`,
+            cardText: "Took an already existing app and converted it to use Python and Flask.",
+            link: "https://burning-igloo.herokuapp.com/",
             buttonText: "Visit the site!"
         },
+    ]
+
+    const projects1 = [
         {
             cardTitle: "Foodie Spot",
             cardImage: `${foodieSpot}`,
@@ -49,21 +45,21 @@ const Projects = () => {
             buttonText: "Visit the site!"
         },
         {
-            cardTitle: "Photo Port",
-            cardImage: `${photoPort}`,
-            cardText: "Basic photography site made using React",
-            link: "https://brt9029.github.io/photo-port/#about",
-            buttonText: "Visit the site!"
-        },
-        {
             cardTitle: "Slay the Market",
             cardImage: `${slayTheMarket}`,
-            cardText: "Card game made using React.js and Stock values for card stats. " +
+            cardText: "My Third Team Project! This is a Card game made using React.js and Stock values for card stats. " +
             "Battle against NFTs and other ridiculous monsters as you use stock cards in combat (yes, there are memes)",
-            link: "https://tgtiburon-slay-the-market.herokuapp.com/Player",
-            buttonText: "Give it a try!"
+            link: "https://github.com/Sloansta/slay-the-market",
+            buttonText: "GitHub Repository"
+        },
+        {
+            cardTitle: "Critique Code",
+            cardImage: `${critiqueCode}`,
+            cardText: "Website created after finishing the coding camp at MSU. We took a previously made site and converted it to a " +
+            "React and MongoDB site. Note: This has not been fully completed and is not completely funcitonal.",
+            link: "https://critique-code.herokuapp.com/",
+            buttonText: "Visit the site!"
         }
-
     ]
 
     return (
@@ -73,18 +69,37 @@ const Projects = () => {
             </h2>
 
             <div className="card-group row-fluid">
-                {projects.map((project) =>
+                {projects0.map((project) =>
                     <div className="card span-6">
                         <img 
-                          className="card-img-top"
-                          src={project.cardImage}
-                          alt={project.cardTitle + ' preview'}
-                          key={project.cardTitle}
-                          width="350" height="250" />
+                            className="card-img-top"
+                            src={project.cardImage}
+                            alt={project.cardTitle + ' preview'}
+                            key={project.cardTitle}
+                            width="350" height="250" 
+                        />
                             <div className="card-body">
                                 <h3 className="card-title">{project.cardTitle}</h3>
-                                <p className="card-text">{project.cardText}</p>
-                                <a href={project.link} className="btn" target="_blank">{project.buttonText}</a>
+                                <a href={project.link} className="btn" target="_blank" rel="noreferrer">{project.buttonText}</a>
+                                <p className="card-text project-text">{project.cardText}</p>
+                            </div>
+                    </div>
+                )}
+            </div>
+            <div className="card-group row-fluid">
+                {projects1.map((project) =>
+                    <div className="card span-6">
+                        <img 
+                            className="card-img-top"
+                            src={project.cardImage}
+                            alt={project.cardTitle + ' preview'}
+                            key={project.cardTitle}
+                            width="350" height="250" 
+                        />
+                            <div className="card-body">
+                                <h3 className="card-title">{project.cardTitle}</h3>
+                                <a href={project.link} className="btn" target="_blank" rel="noreferrer">{project.buttonText}</a>
+                                <p className="card-text project-text">{project.cardText}</p>
                             </div>
                     </div>
                 )}
