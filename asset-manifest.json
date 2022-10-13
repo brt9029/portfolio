@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/fantastic-waffle/static/css/main.c145db96.css",
-    "main.js": "/fantastic-waffle/static/js/main.2b86c1f4.js",
-    "static/js/787.1ed0c42c.chunk.js": "/fantastic-waffle/static/js/787.1ed0c42c.chunk.js",
-    "static/media/foodie-spot.png": "/fantastic-waffle/static/media/foodie-spot.ee3ce57dba4cf86ae5f7.png",
-    "static/media/critique-code.png": "/fantastic-waffle/static/media/critique-code.0e4f1e82c3e45344bad9.png",
-    "static/media/newsFeed.png": "/fantastic-waffle/static/media/newsFeed.23baf5726e324316e5d9.png",
-    "static/media/stm.png": "/fantastic-waffle/static/media/stm.e6256cb1519383131257.png",
-    "static/media/brunch-cartoon.gif": "/fantastic-waffle/static/media/brunch-cartoon.eef22753dedf9eeb4b5a.gif",
-    "static/media/block-breaker.gif": "/fantastic-waffle/static/media/block-breaker.f0d4e5b078c08b1ba842.gif",
-    "static/media/tech-port.png": "/fantastic-waffle/static/media/tech-port.e0f259034f7169d91117.png",
-    "static/media/self-portrait.png": "/fantastic-waffle/static/media/self-portrait.35edd40bb25c616893b7.png",
-    "static/media/Bryant_Torres_Resume.PDF": "/fantastic-waffle/static/media/Bryant_Torres_Resume.d9aefa2f3c85419d99a3.PDF",
-    "static/media/hero.png": "/fantastic-waffle/static/media/hero.72c2a83d4dbff57e2b9f.png",
-    "index.html": "/fantastic-waffle/index.html",
-    "main.c145db96.css.map": "/fantastic-waffle/static/css/main.c145db96.css.map",
-    "main.2b86c1f4.js.map": "/fantastic-waffle/static/js/main.2b86c1f4.js.map",
-    "787.1ed0c42c.chunk.js.map": "/fantastic-waffle/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.dc7e58a0.css",
+    "main.js": "/static/js/main.b1d226ab.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/photo-port.png": "/static/media/photo-port.7311d848891728ed8c55.png",
+    "static/media/foodie-spot.png": "/static/media/foodie-spot.2b12b7bff83e4640335f.png",
+    "static/media/btorres-resume.pdf": "/static/media/btorres-resume.43d8f73d83789cbba1e0.pdf",
+    "static/media/just-tech-news.png": "/static/media/just-tech-news.b1ab5e58965412a03ffd.png",
+    "static/media/WhiteLogo.png": "/static/media/WhiteLogo.2ead29eabd10308e518b.png",
+    "static/media/me-about.png": "/static/media/me-about.9f4496e630f4261d1dff.png",
+    "static/media/me.png": "/static/media/me.4d07014df06904edcb90.png",
+    "static/media/block-breaker.png": "/static/media/block-breaker.31865fe2aa1b13689de9.png",
+    "index.html": "/index.html",
+    "main.dc7e58a0.css.map": "/static/css/main.dc7e58a0.css.map",
+    "main.b1d226ab.js.map": "/static/js/main.b1d226ab.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c145db96.css",
-    "static/js/main.2b86c1f4.js"
+    "static/css/main.dc7e58a0.css",
+    "static/js/main.b1d226ab.js"
   ]
 }
