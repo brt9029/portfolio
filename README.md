@@ -1,4 +1,4 @@
-# fantastic-waffle
+# portfolio
 
 ## My Portfolio Website
 - Made using React
@@ -9,4 +9,4 @@
 
 **Web Preview**
 
-![por](https://user-images.githubusercontent.com/26530136/157150261-3aa86ebb-7158-4298-ab35-1468026f722c.PNG)
+![portfolio-preview](https://user-images.githubusercontent.com/26530136/195509744-378ca03d-343c-4c4c-a1f3-3bc31e7934b9.PNG)
