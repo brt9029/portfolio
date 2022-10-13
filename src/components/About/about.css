@@ -1,3 +1,7 @@
+#about > h2 {
+    color: var(--color-secondary);
+}
+
 .about-container {
     display: grid;
     grid-template-columns: 35% 50%;
@@ -6,7 +10,7 @@
 
 .about-me {
     width: 100%;
-    aspect-ratio: 1/1;
+    /* aspect-ratio: 1/1; */
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-primary));
     display: grid;
@@ -36,4 +40,68 @@
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
+    transition: var(--transition);
+}
+
+.about-card:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.about-icon {
+    color: var(--color-secondary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.about-card h5 {
+    font-size: 1rem;
+}
+
+.about-card small {
+    font-size: 0.75rem;
+    color: var(--color-light);
+}
+
+.about-content p {
+    margin: 2rem 0 2rem;
+    color: var(--color-light);
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about-me {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+
+    .about-content p {
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about-me {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .about-cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .about-content p {
+        margin: 1.5rem 0;
+    }
 }

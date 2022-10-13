@@ -29,6 +29,10 @@ header {
     bottom: 3rem;
 }
 
+.header-socials svg {
+    color: var(--color-secondary);
+}
+
 .header-socials::after {
     content: '';
     width: 1px;
@@ -38,7 +42,7 @@ header {
 
 /* Me */
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
+    background: linear-gradient(var(--color-white), transparent);
     width: 22rem;
     height: 30rem;
     position: absolute;
@@ -62,9 +66,7 @@ header {
 
 /* Media Queries */
 @media screen and (max-width: 1024px) {
-    header {
-        height: 68vh;
-    }
+    /* Nothing needed here yet */
 }
 
 @media screen and (max-width: 600px) {
