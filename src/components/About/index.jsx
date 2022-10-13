@@ -14,7 +14,7 @@ const About = () => {
             <div className='container about-container'>
                 <div className='about-me'>
                     <div className='about-me-image'>
-                        <img src={Me} alt='' />
+                        <img src={Me} alt='Laptop' />
                     </div>
                 </div>
                 
@@ -33,7 +33,8 @@ const About = () => {
                         <article className='about-card'>
                             <VscFolderLibrary className='about-icon' />
                             <h5>Working on</h5>
-                            <small>Creating assets for <a href='https://github.com/DevelopThisOfficial/operation-jungle-knight'>Operation Jungle Knight</a></small>
+                            <small>Creating assets for <a href='https://github.com/DevelopThisOfficial/operation-jungle-knight'>Operation Jungle Knight</a>,</small><br/>
+                            <small>Revisiting React & GraphQL</small>
                         </article>
                     </div>
 
