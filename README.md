@@ -4,7 +4,7 @@
 - Made using React
 
 
-- Deployed URL: https://brt9029.github.io/fantastic-waffle/
+- Deployed URL: https://brt9029.github.io/portfolio/
 
 
 **Web Preview**
