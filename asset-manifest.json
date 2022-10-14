@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.dc7e58a0.css",
-    "main.js": "/portfolio/static/js/main.155f454a.js",
+    "main.js": "/portfolio/static/js/main.80ba4f6a.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/photo-port.png": "/portfolio/static/media/photo-port.7311d848891728ed8c55.png",
     "static/media/foodie-spot.png": "/portfolio/static/media/foodie-spot.2b12b7bff83e4640335f.png",
-    "static/media/btorres-resume.pdf": "/portfolio/static/media/btorres-resume.1fd389cfc50c5d4ebceb.pdf",
+    "static/media/btorres-resume.pdf": "/portfolio/static/media/btorres-resume.ea67f38f86dff50736d8.pdf",
     "static/media/just-tech-news.png": "/portfolio/static/media/just-tech-news.b1ab5e58965412a03ffd.png",
     "static/media/WhiteLogo.png": "/portfolio/static/media/WhiteLogo.2ead29eabd10308e518b.png",
     "static/media/me-about.png": "/portfolio/static/media/me-about.9f4496e630f4261d1dff.png",
@@ -13,11 +13,11 @@
     "static/media/block-breaker.png": "/portfolio/static/media/block-breaker.31865fe2aa1b13689de9.png",
     "index.html": "/portfolio/index.html",
     "main.dc7e58a0.css.map": "/portfolio/static/css/main.dc7e58a0.css.map",
-    "main.155f454a.js.map": "/portfolio/static/js/main.155f454a.js.map",
+    "main.80ba4f6a.js.map": "/portfolio/static/js/main.80ba4f6a.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc7e58a0.css",
-    "static/js/main.155f454a.js"
+    "static/js/main.80ba4f6a.js"
   ]
 }
