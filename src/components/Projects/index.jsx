@@ -30,6 +30,13 @@ const Projects = () => {
             image: 'photo-port.png',
             link: 'http://brt9029.github.io/photo-port',
             gitHub: 'https://github.com/brt9029/photo-port'
+        },
+        {
+            id: 5,
+            title: 'Deep Thoughts',
+            image: 'deep-thoughts.png',
+            link: 'https://deep-thoughts9029.herokuapp.com/',
+            gitHub: 'https://github.com/brt9029/deep-thoughts'
         }
     ]
     return (
