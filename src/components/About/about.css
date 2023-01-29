@@ -8,6 +8,11 @@
     gap: 15%;
 }
 
+.about-email {
+    display: flex;
+    justify-content: center;
+}
+
 .about-me {
     width: 100%;
     aspect-ratio: 2;

@@ -5,10 +5,10 @@ const Projects = () => {
     const projectList = [
         {
             id: 1,
-            title: 'Block Breaker',
-            image: 'block-breaker.png',
-            link: 'https://brt9029.itch.io/block-breaker',
-            gitHub: 'https://brt9029.itch.io/block-breaker'
+            title: 'Pong',
+            image: 'pong.png',
+            link: 'https://brt9029.github.io/pong/',
+            gitHub: 'https://github.com/brt9029/pong'
         },
         {
             id: 2,
@@ -26,10 +26,10 @@ const Projects = () => {
         },
         {
             id: 4,
-            title: 'Photo Port',
-            image: 'photo-port.png',
-            link: 'http://brt9029.github.io/photo-port',
-            gitHub: 'https://github.com/brt9029/photo-port'
+            title: 'Museum of Candy',
+            image: 'moc.png',
+            link: 'https://brt9029.github.io/museum-of-candy/',
+            gitHub: 'https://github.com/brt9029/museum-of-candy'
         },
         {
             id: 5,
@@ -37,6 +37,13 @@ const Projects = () => {
             image: 'deep-thoughts.png',
             link: 'https://deep-thoughts9029.herokuapp.com/',
             gitHub: 'https://github.com/brt9029/deep-thoughts'
+        },
+        {
+            id: 6,
+            title: 'Mauve: Prime Directive',
+            image: 'mauve.png',
+            link: 'https://burcarz.itch.io/mauve',
+            gitHub: 'https://github.com/phopps/godot-wild-jam'
         }
     ]
     return (

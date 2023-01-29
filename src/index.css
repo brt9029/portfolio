@@ -11,15 +11,11 @@
 }
 
 :root {
-  /* --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4); */
   /* Colors to edit */
   --color-bg: #0A121E;
   --color-bg-variant: #132D46;
-  --color-primary: #43AB94;
-  --color-secondary: #01C38D;
+  --color-primary: #3bb3c9;
+  --color-secondary: #24b1b1;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);

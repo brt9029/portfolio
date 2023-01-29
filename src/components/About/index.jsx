@@ -33,18 +33,23 @@ const About = () => {
                         <article className='about-card'>
                             <VscFolderLibrary className='about-icon' />
                             <h5>Working on</h5>
-                            <small>Creating assets for <a href='https://github.com/DevelopThisOfficial/operation-jungle-knight'>Operation Jungle Knight</a>,</small><br/>
-                            <small>Revisiting React & GraphQL</small>
+                            <small><a href='https://github.com/DevelopThisOfficial/operation-jungle-knight'>Operation Jungle Knight</a>,</small><br/>
+                            <small>Entering GameJams using Godot & C#!</small>
                         </article>
                     </div>
 
                     <p>
-                        Hi, I'm Bryant! I'm a <i>mostly</i> self-taught Full Stack Developer. My expertise lies within back-end apps, the main languages in my stack are JavaScript, React, and HTML/CSS.
+                        Hi, I'm Bryant! A self-taught<i>(mostly)</i> and motivated Full Stack Developer. My expertise lies within back-end apps, the main languages in my stack are JavaScript, React, and HTML/CSS.
                         While my current job title is a System Administrator, I am looking to get my first job as a Developer.
                     </p>
                 </div>
 
-                <a href='#contact' className='btn btn-primary'>Let's Chat</a>
+
+                
+            </div>
+            
+            <div className="about-email">
+                <a href='#contact' className='btn btn-primary'>Send me an e-mail</a>
             </div>
         </section>
     );
