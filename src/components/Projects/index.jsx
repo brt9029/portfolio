@@ -44,6 +44,12 @@ const Projects = () => {
             image: 'mauve.png',
             link: 'https://burcarz.itch.io/mauve',
             gitHub: 'https://github.com/phopps/godot-wild-jam'
+        },
+        {
+            id: 7,
+            title: 'Monsters vs Robots',
+            link: 'https://thaewyn.itch.io/monsters-vs-robots',
+            github: 'https://github.com/phopps/mvmxix'
         }
     ]
     return (
