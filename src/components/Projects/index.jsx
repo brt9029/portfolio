@@ -48,6 +48,7 @@ const Projects = () => {
         {
             id: 7,
             title: 'Monsters vs Robots',
+            image: 'mvr.png',
             link: 'https://thaewyn.itch.io/monsters-vs-robots',
             github: 'https://github.com/phopps/mvmxix'
         }
