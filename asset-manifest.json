@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cad9b291.css",
-    "main.js": "/portfolio/static/js/main.45823b4d.js",
+    "main.css": "/portfolio/static/css/main.12bac597.css",
+    "main.js": "/portfolio/static/js/main.e32465dc.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/me.png": "/portfolio/static/media/me.f31e2c63490112a7708a.png",
     "static/media/foodie-spot.png": "/portfolio/static/media/foodie-spot.2b12b7bff83e4640335f.png",
     "static/media/moc.png": "/portfolio/static/media/moc.3f8ac2e91e6904b4ddc9.png",
     "static/media/mvr.png": "/portfolio/static/media/mvr.da9053d61c91a408fcf3.png",
     "static/media/deep-thoughts.png": "/portfolio/static/media/deep-thoughts.4bb092b218a605878b63.png",
-    "static/media/btorres-resume.pdf": "/portfolio/static/media/btorres-resume.df5406b85374997d1a5d.pdf",
     "static/media/just-tech-news.png": "/portfolio/static/media/just-tech-news.b1ab5e58965412a03ffd.png",
+    "static/media/btorres-resume.pdf": "/portfolio/static/media/btorres-resume.a4c8bc62326f883ab60c.pdf",
     "static/media/mauve.png": "/portfolio/static/media/mauve.7e480d1108bfc7fadf19.png",
     "static/media/WhiteLogo.png": "/portfolio/static/media/WhiteLogo.2ead29eabd10308e518b.png",
     "static/media/me-about.png": "/portfolio/static/media/me-about.9f4496e630f4261d1dff.png",
-    "static/media/me.png": "/portfolio/static/media/me.4d07014df06904edcb90.png",
     "index.html": "/portfolio/index.html",
-    "main.cad9b291.css.map": "/portfolio/static/css/main.cad9b291.css.map",
-    "main.45823b4d.js.map": "/portfolio/static/js/main.45823b4d.js.map",
+    "main.12bac597.css.map": "/portfolio/static/css/main.12bac597.css.map",
+    "main.e32465dc.js.map": "/portfolio/static/js/main.e32465dc.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cad9b291.css",
-    "static/js/main.45823b4d.js"
+    "static/css/main.12bac597.css",
+    "static/js/main.e32465dc.js"
   ]
 }
