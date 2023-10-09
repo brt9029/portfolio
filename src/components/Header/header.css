@@ -42,16 +42,26 @@ header {
 
 /* Me */
 .me {
-    background: linear-gradient(var(--color-white), transparent);
-    width: 22rem;
+    background: linear-gradient(rgb(173, 236, 233), transparent);
+    width: 30rem;
     height: 30rem;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+    border-radius: 2rem 2rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+#me {
+    background-image: linear-gradient(rgba(168, 168, 167, 0.1), rgba(175, 174, 113, 0.2)),
+    url('../../assets/me.png');
+    border-radius: 2rem 2rem 0 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity: 0.95;
 }
 
 /* Scroll Down Text */

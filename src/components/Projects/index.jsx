@@ -50,7 +50,7 @@ const Projects = () => {
             title: 'Monsters vs Robots',
             image: 'mvr.png',
             link: 'https://thaewyn.itch.io/monsters-vs-robots',
-            github: 'https://github.com/phopps/mvmxix'
+            gitHub: 'https://github.com/phopps/mvmxix'
         }
     ]
     return (

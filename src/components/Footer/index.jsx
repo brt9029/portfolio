@@ -2,6 +2,8 @@ import React from 'react';
 import './footer.css';
 // import { FaFacebookF } from 'react-icons/fa';
 // import { IoLogoTwitter } from 'react-icons/io';
+const currentDate = new Date();
+const currentYear = currentDate.getFullYear();
 
 const Footer = () => {
     return (
@@ -21,7 +23,7 @@ const Footer = () => {
             </div>
 
             <div className='footer-copywright'>
-                <small>&copy; 2023 Bryant Torres</small>
+                <small>&copy; {currentYear} Bryant Torres</small>
             </div>
         </footer>
     );
